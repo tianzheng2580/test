@@ -1,13 +1,13 @@
 <template>
   <div class="home">
 主页
-      <el-button type="info">默认按钮</el-button>
+      <el-button type="info">按钮</el-button>
       <div class="count">
           <input type="button" value="获取" @click="gain">
           {{ $store.state.count }}
           <input type="button" value="改变" @click="doneTodosCount">
 
-
+     
       </div>
   </div>
 
@@ -35,5 +35,7 @@ export default {
           console.log(this.$store.getters.getTodoById(2))
       },
   }
+
+  
 }
 </script>

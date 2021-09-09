@@ -3,7 +3,7 @@
         <input type="text" v-model="name">
         <input type="password" v-model="pwd">
         <input type="button" value="登录" @click="jump">
-        <p>111</p>
+    
     </div>
 </template>
 
